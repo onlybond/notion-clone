@@ -1,4 +1,4 @@
-const PublishLayout ({
+const PublishLayout = ({
   children
 }:{
   children:React.ReactNode
