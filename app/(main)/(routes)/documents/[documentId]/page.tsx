@@ -14,7 +14,7 @@ interface DocumentIdPageProps{
     documentId:Id<"documents">
   }
 }
-const documentIdPage = ({
+const DocumentIdPage = ({
   params
 }:DocumentIdPageProps)=>{
   const Editor = useMemo(()=>dynamic(()=>import("@/components/editor"),{ssr:false}),[])
@@ -63,4 +63,4 @@ const documentIdPage = ({
   )
 }
 
-export default documentIdPage;
+export default DocumentIdPage;
