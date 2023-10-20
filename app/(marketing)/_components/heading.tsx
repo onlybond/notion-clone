@@ -16,7 +16,7 @@ export const Heading = () => {
         <span className="underline">Kotion</span>
       </h1>
       <h3 className="text-base sm:text-xl md:text-2xl font-medium">
-        Jotion is the Connected workspace <br />
+        Kotion is the Connected workspace <br />
         better, faster work happens.
       </h3>
       {isLoading && (
