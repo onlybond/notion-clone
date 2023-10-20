@@ -136,7 +136,7 @@ export const Publish = ({
               className="w-full text-xs"
               size="sm"
             >
-              Published
+              Publish
             </Button>
           </div>
         )}
